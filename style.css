@@ -9,9 +9,6 @@ body,html{
     align-items: center;
     
 }
-
-
-
 .main{
 width: 500px;
 height: 300px;
@@ -27,22 +24,20 @@ border: 1px solid black;
     margin: 10px;
     border: 1px solid black;
 }
-
-
 @media screen and (max-width:490px){
 .main{
-width: 230px;
-height: 1130px;
+width: 50%;
+height: 100%;
 display: flex;
 justify-content: center;
-border: 1px solid black;
-    }
+border: none;
+}
     .main div{
+        margin-top: -50px;
         width: 100px;
         height: 120px;
         background-color: rgb(134, 188, 204);
         margin: 10px;
         border: 1px solid black;
     }
-    
 }
