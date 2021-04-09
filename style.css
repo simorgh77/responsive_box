@@ -23,6 +23,7 @@ border: 1px solid black;
     background-color: rgb(134, 188, 204);
     margin: 10px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 @media screen and (max-width:490px){
 .main{
@@ -39,5 +40,6 @@ border: none;
         background-color: rgb(134, 188, 204);
         margin: 10px;
         border: 1px solid black;
+        border-radius: 20px;
     }
 }
